@@ -116,16 +116,16 @@ h3 {
 	}
 	#skillsBox img {
 		opacity: 0;
+
 	}
 	#skillsBox {
-		opacity: 0;
-		background: transparent;
+		width: 100%;
 	}
 
 	.quote {
 		line-height: 1em;
 		font-size: 3em;
-		width: 100%;
+		width: 0%;
 	}
 
 	.row {
@@ -168,6 +168,12 @@ h3 {
 		top: -40em;
 		animation: none;
 		opacity: 1;
+	}
+
+	#skillsBox h1 {
+	 margin-top: 120vh;
+	 color: white;
+
 	}
 }
 @media (min-width: 1025px) {

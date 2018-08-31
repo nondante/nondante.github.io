@@ -115,7 +115,7 @@ body {
   font-size: 1.2em;
   margin: 15vh auto 0;
   perspective: 2000vmin;
-  width: 70%;
+  width: 59%;
   height: 85vh;
   text-align: center;
   line-height: 3em;
@@ -162,14 +162,16 @@ body {
 
 #skillsBox {
   opacity: 0.8;
-  background-color: rgba(47, 49, 53, 0.7);
+  background-color: rgba(64, 65, 68, 0.8);
   display: table;
   margin: 0 auto;
   height: 300%;
-  width: 15%;
+  width: 30%;
   position: absolute;
   top: -50%;
   left: 0;
+  font-family: 'Archivo Black', sans-serif;
+  text-align: center;
 
 }
 
@@ -177,6 +179,115 @@ body {
  position: fixed;
 
 }
+
+#skillsBox h1 {
+ margin-top: 75vh;
+ margin-bottom: 15%;
+ color: white;
+
+}
+
+#skills-container {
+	width: 60%;
+	margin: 5% auto 0;
+	text-align: left;
+  display: block;
+  color: white;
+}
+
+#progressbar{
+  height: 26px;
+  display: block;
+  width: 200px;
+  background: rgba(159, 159, 159, 0.5);
+  border-radius: 10px;
+  padding: 2px;
+  text-align: left;
+
+}
+#loading1{
+  transition: all 500ms ease;
+  height: 20px;
+  width: 90%;
+  border-radius: 8px;
+  background: rgb(255,90,90);
+  margin: 3px;
+  display: inline-block;
+
+}
+
+#loading2{
+  transition: all 500ms ease;
+  height: 20px;
+  width: 80%;
+  border-radius: 8px;
+  background: rgb(255,90,90);
+  margin: 3px;
+  display: inline-block;
+
+}
+#loading3{
+  transition: all 500ms ease;
+  height: 20px;
+  width: 70%;
+  border-radius: 8px;
+  background: rgb(255,90,90);
+  margin: 3px;
+  display: inline-block;
+
+}
+#loading4{
+  transition: all 500ms ease;
+  height: 20px;
+  width: 70%;
+  border-radius: 8px;
+  background: rgb(255,90,90);
+  margin: 3px;
+  display: inline-block;
+
+}
+#loading5{
+  transition: all 500ms ease;
+  height: 20px;
+  width: 50%;
+  border-radius: 8px;
+  background: rgb(255,90,90);
+  margin: 3px;
+  display: inline-block;
+
+}
+#loading6{
+  transition: all 500ms ease;
+  height: 20px;
+  width: 80%;
+  border-radius: 8px;
+  background: rgb(255,90,90);
+  margin: 3px;
+  display: inline-block;
+
+}
+#loading7{
+  transition: all 500ms ease;
+  height: 20px;
+  width: 90%;
+  border-radius: 8px;
+  background: rgb(255,90,90);
+  margin: 3px;
+  display: inline-block;
+
+}
+#load{
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -30px;
+}
+
+#skill-name {
+	display: block;
+
+}
+
 
 #contact_me {
   cursor: pointer;
