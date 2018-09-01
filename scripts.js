@@ -321,7 +321,7 @@ $('.photo-overlay').click( function(){
 
 });
 
-$('.button').click( function(){
+$('.view').click( function(){
     modal.style.display = "block";
     modalImg.src =$(this).parent().children($('.photo')).children($('img')).attr('src');
 
