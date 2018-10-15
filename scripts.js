@@ -199,12 +199,12 @@ thirdSection.style.height = $('.treehouse-container').height();
 ////////////////////////////////////////////////
 //skills section's random words carousel code
 //////////////////////////////////////////////
-eQuote.innerHTML = `javascript css html git github agile jquery underscore responsive_design photoshop ilustrator python
- excel  bootstrap sql javascript css html git github agile jquery underscore responsive_design photoshop ilustrator python
- excel  bootstrap sql javascript css html git github agile jquery underscore responsive_design photoshop ilustrator python
- excel  bootstrap sql javascript css html git github agile jquery underscore responsive_design photoshop ilustrator python
- excel  bootstrap sql javascript css html git github agile jquery underscore responsive_design photoshop ilustrator python
- excel  bootstrap sql javascript css html git github agile jquery underscore responsive_design photoshop ilustrator python
+eQuote.innerHTML = `javascript css html git github agile jquery underscore responsive_design photoshop ilustrator php
+ excel  bootstrap sql javascript css html git github agile jquery underscore responsive_design photoshop ilustrator php
+ excel  bootstrap sql javascript css html git github agile jquery underscore responsive_design photoshop ilustrator php
+ excel  bootstrap sql javascript css html git github agile jquery underscore responsive_design photoshop ilustrator php
+ excel  bootstrap sql javascript css html git github agile jquery underscore responsive_design photoshop ilustrator php
+ excel  bootstrap sql javascript css html git github agile jquery underscore responsive_design photoshop ilustrator php
  excel  bootstrap sql`;
 
   var aQuote = eQuote.innerHTML.split(regex);
