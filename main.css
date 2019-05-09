@@ -70,10 +70,7 @@ h3 {
 	overflow: hidden;
 }
 .photo-container img {
-	 max-width: 100%;
-	 object-fit: cover;
-	 width: 728px;
-	 height: 484px;
+ 	max-width: 100%;
 }
 .button {
 	width: 70%;
