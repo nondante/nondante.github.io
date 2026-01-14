@@ -1,0 +1,8 @@
+# app-ads.txt for Lustrum - Tarot Learning App
+# Package: com.petopoly.lustrum
+# 
+# This file authorizes Google AdMob to sell and serve ads in this app.
+# Learn more: https://support.google.com/admob/answer/9363762
+
+# Google AdMob
+google.com, pub-5099300946710968, DIRECT, f08c47fec0942fa0
