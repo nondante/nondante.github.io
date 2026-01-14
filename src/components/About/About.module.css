@@ -1,0 +1,138 @@
+.about {
+  padding: 6rem 2rem;
+  background-color: var(--bg-primary);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  color: var(--text-primary);
+  text-align: center;
+}
+
+.dot {
+  color: var(--accent-cyan);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 400px;
+  border: 3px solid var(--accent-cyan);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  background-color: var(--bg-secondary);
+}
+
+.imageContainer:hover {
+  transform: scale(1.02);
+}
+
+.officeImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  image-rendering: high-quality;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.textContent {
+  flex: 1;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+}
+
+.description {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+.heading :global(.highlight),
+.description :global(.highlight) {
+  color: var(--accent-cyan);
+  font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    grid-template-columns: 250px 1fr;
+    gap: 3rem;
+  }
+
+  .imageContainer {
+    height: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 4rem 1.5rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .imageContainer {
+    width: 250px;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  .heading {
+    font-size: 1.25rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 3rem 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .imageContainer {
+    width: 200px;
+    height: 250px;
+  }
+
+  .heading {
+    font-size: 1.125rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+}
