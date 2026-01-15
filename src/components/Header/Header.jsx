@@ -2,6 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import styles from './Header.module.css';
 
+// Hoisted outside component - created once, not on every render
+const navItems = [
+  { name: 'About', to: 'about' },
+  { name: 'Experience', to: 'experience' },
+  { name: 'Projects', to: 'projects' },
+  { name: 'Contact', to: 'contact' }
+];
+
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -14,13 +22,6 @@ const Header = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
-  const navItems = [
-    { name: 'About', to: 'about' },
-    { name: 'Experience', to: 'experience' },
-    { name: 'Projects', to: 'projects' },
-    { name: 'Contact', to: 'contact' }
-  ];
 
   return (
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>

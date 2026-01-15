@@ -104,6 +104,7 @@ const Projects = () => {
                             loop
                             muted
                             playsInline
+                            preload="none"
                           >
                             <source src={project.video} type="video/mp4" />
                           </video>
@@ -112,6 +113,7 @@ const Projects = () => {
                             src={project.image}
                             alt={project.title}
                             className={styles.projectImg}
+                            loading="lazy"
                           />
                         ) : (
                           <div className={styles.placeholderImage}>
